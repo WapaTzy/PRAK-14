@@ -11,11 +11,10 @@ int main()
         cout << "Pernyataan tidak akan ditampilkan" << endl;
     }
     //kondisi jika throw yang bertipe data integer
-   
-    //kondisi jika throw bertipe data selain integer
-    catch (...)
+    catch (int a)
     {
-        cout << "default pengecualian diekseskusi" << endl;
+        cout << "Pengecualian akan di eksekusi" << endl;
     }
-    return 0;
+    //kondisi jika throw bertipe data selain integer
+   
 }
