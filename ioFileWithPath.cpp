@@ -5,11 +5,10 @@ using namespace std;
 
 int main()
 {
-    
-    //membuat input untuk menangkap nama file
-    cout << "Masukkan nama file : ";
-    cin >> NamaFile;
+    //deklarasi variabel baris dan NamaFile
+    string baris, NamaFile;
 
+   
     //membuat file dalam mode menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file dengan ekstentsi txt
